@@ -49,7 +49,7 @@ module Hdf5
         :int
       end
       def hid_t
-        :int
+        :int64
       end
       def hbool_t
         :uint

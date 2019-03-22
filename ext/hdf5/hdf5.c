@@ -15,12 +15,12 @@
 static VALUE narray_data_address(VALUE class, VALUE narray_obj){
 
 	struct NARRAY *narray;
-  int addrs;
+  char  *addrs;
   VALUE address;
 
   /*printf("RUNNING TRINITY!!!\n\n");*/
 	Data_Get_Struct(narray_obj, struct NARRAY, narray);
-  addrs = (int)narray->ptr;
+  addrs = narray->ptr;
   address = INT2FIX(addrs);
 
 

@@ -1,6 +1,15 @@
 
-Hdf5
+Hdf5 only for my cygwin env
 ====
+This is updated for my current cygwin evironment as of March 2019
+* CYGWIN_NT-10.0 3.0.4(0.338/5/3) 2019-03-16 09:50 x86_64 Cygwin
+* ruby 2.3.6p384 (2017-12-14 revision 9808) [x86_64-cygwin]
+* narray (0.6.1.2)
+* libhdf5: 1.10.2
+
+cyghdf5-101.dll, which is found in /usr/bin, must be renamed (or copied) to cyghdf5.dll
+
+
 
 This is a Ruby module for reading and manipulating HDF5 (Hierarchical Data Format) 
 files. At the current time (July 2014) it is capable of basic reading operations.
