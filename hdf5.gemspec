@@ -19,9 +19,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md",
-    "README.md.orig",
     "README.rdoc",
-    "README.rdoc.orig"
   ]
   s.files = [
     ".document",
